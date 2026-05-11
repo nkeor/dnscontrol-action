@@ -8,8 +8,8 @@ LABEL "com.github.actions.description"="Deploy your DNS configuration to multipl
 LABEL "com.github.actions.icon"="cloud"
 LABEL "com.github.actions.color"="yellow"
 
-ENV DNSCONTROL_VERSION="4.30.0"
-ENV DNSCONTROL_CHECKSUM="8105cc27704b47bf984310962a2231ad083727fa08a1163fa22af3ff42d00693"
+ENV DNSCONTROL_VERSION="4.37.1"
+ENV DNSCONTROL_CHECKSUM="4105d69ff05dd9e9ddcba898bcb85e4f4f6907248dbafe8a36ea26844313d237"
 ENV USER=dnscontrol-user
 
 RUN apk -U --no-cache upgrade && \
